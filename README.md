@@ -1,4 +1,3 @@
-# Nrup-Website
-# Portfolio 👔💻
+# Nrup Portfolio Website👔💻
 
 
