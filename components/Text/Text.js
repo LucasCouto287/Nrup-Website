@@ -70,3 +70,6 @@ const StyledText = styled.div`
     ${mobileSize && `font-size: ${{ mobileSize }}`};
   `}
 `;
+
+export { SectionTitle, SectionHeader, Body };
+export default Text;
