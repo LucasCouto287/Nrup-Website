@@ -42,3 +42,11 @@ const SectionHeader = styled(Text).attrs({
 })`
   margin-top: 18px;
 `;
+
+
+const Body = styled(Text).attrs({
+  weight: "light",
+  tag: "p"
+})`
+  line-height: 1.56em;
+`;
