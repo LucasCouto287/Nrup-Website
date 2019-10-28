@@ -61,3 +61,12 @@ const StyledText = styled.div`
     size ? theme.fontSize[size] : theme.fontSize.default};
   font-weight: ${({ theme, weight }) =>
     weight ? theme.fontWeight[weight] : theme.fontWeight.default};
+
+
+  ${({ theme, mobileSize }) => theme.media.mobile`
+    ${() => {
+      console.log(mobileSize);
+    }}
+    ${mobileSize && `font-size: ${{ mobileSize }}`};
+  `}
+`;
