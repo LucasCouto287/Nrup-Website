@@ -10,3 +10,15 @@ const Text = ({
   ...props
 }) => {
   return (
+  <StyledText
+      as={tag}
+      size={size}
+      mobileSize={mobileSize}
+      weight={weight}
+      isSerif={isSerif}
+      {...props}
+    >
+      {children}
+    </StyledText>
+  );
+};
