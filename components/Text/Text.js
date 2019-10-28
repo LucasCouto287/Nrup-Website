@@ -22,3 +22,13 @@ const Text = ({
     </StyledText>
   );
 };
+
+
+const SectionTitle = styled(Text).attrs({
+  tag: "h3",
+  size: "medium",
+  weight: "light",
+  color: "lightGray"
+})`
+  text-transform: uppercase;
+`;
