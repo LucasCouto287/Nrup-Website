@@ -32,3 +32,13 @@ const SectionTitle = styled(Text).attrs({
 })`
   text-transform: uppercase;
 `;
+
+
+const SectionHeader = styled(Text).attrs({
+  tag: "h2",
+  size: "large",
+  mobileSize: "medium",
+  isSerif: true
+})`
+  margin-top: 18px;
+`;
