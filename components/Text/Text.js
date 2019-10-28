@@ -50,3 +50,14 @@ const Body = styled(Text).attrs({
 })`
   line-height: 1.56em;
 `;
+
+
+const StyledText = styled.div`
+  color: ${({ theme, color }) =>
+    color ? theme.color[color] : theme.color.gray};
+  font-family: ${({ theme, isSerif }) =>
+    isSerif ? theme.fontFamily.serif : theme.fontFamily.sansSerif};
+  font-size: ${({ theme, size }) =>
+    size ? theme.fontSize[size] : theme.fontSize.default};
+  font-weight: ${({ theme, weight }) =>
+    weight ? theme.fontWeight[weight] : theme.fontWeight.default};
