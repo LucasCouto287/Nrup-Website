@@ -8,3 +8,6 @@ import { GlobalStyles, theme } from "../styles";
 class PortfolioApp extends App {
   static async getInitialProps({ Component, ctx }) {
     let pageProps = {};
+
+      if (Component.getInitialProps) {
+      pageProps = await Component.getInitialProps(ctx);
