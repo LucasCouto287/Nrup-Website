@@ -1,0 +1,11 @@
+{
+  "name": "nruppatel",
+  "version": "1.0.0",
+  "description": "My personal site",
+
+  
+  "dependencies": {
+    "aos": "^3.0.0-beta.6"
+   
+  }
+}
