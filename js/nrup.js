@@ -1,4 +1,4 @@
-
+setTimeout(updateSubtitle, 1500)
 
 // Testing this
 window.smoothScroll = function(target) {
